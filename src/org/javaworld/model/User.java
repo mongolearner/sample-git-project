@@ -3,6 +3,17 @@ package org.javaworld.model;
 public class User {
     
     public String name;
+    public int age;
+    
+    public User() {
+        super();
+    }
+
+    public User(String name, int age) {
+        super();
+        this.name = name;
+        this.age = age;
+    }
 
     public String getName() {
         return name;
@@ -10,11 +21,8 @@ public class User {
 
     public void setName(String name) {
         this.name = name;
-        
     }
     
-    
-    public int age;
     
     public int getAge() {
         return age;
